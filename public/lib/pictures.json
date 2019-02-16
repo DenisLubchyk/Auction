@@ -1,0 +1,88 @@
+{
+  "arr": [
+    {
+      "name": "Мадонна",
+      "author": "Леонардо Да Винчи",
+      "date": "1320",
+      "description": "Самая известная картина в мире",
+      "link": "../images/madonna.jpg",
+      "inAuction": false,
+      "beginning_price": "",
+      "min_step": "",
+      "max_step": "",
+      "id": "picIdNxIkw_sZj"
+    },
+    {
+      "name": "Старая мадонна",
+      "author": "Леонардо Да Винчи",
+      "date": "1350",
+      "description": "Мадонна кормит ребенка",
+      "link": "../images/oldmadonna.jpg",
+      "inAuction": true,
+      "beginning_price": "10000",
+      "min_step": "100",
+      "max_step": "500",
+      "id": "picIdTov3zcnNZ"
+    },
+    {
+      "name": "Завтрак",
+      "author": "Иванов И.И.",
+      "date": "1950",
+      "description": "Интересный завтрак",
+      "link": "../images/breakfast.jpg",
+      "inAuction": false,
+      "beginning_price": "",
+      "min_step": "",
+      "max_step": "",
+      "id": "picIdLgX68oufW"
+    },
+    {
+      "name": "Цветы",
+      "author": "Петров С.С.",
+      "date": "1977",
+      "description": "Красивые цветы",
+      "link": "../images/flowers.jpg",
+      "inAuction": true,
+      "beginning_price": 1000,
+      "min_step": 10,
+      "max_step": 50,
+      "id": "picId9ZZ-HpoWD"
+    },
+    {
+      "name": "Мазня",
+      "author": "Петров С.С.",
+      "date": "1987",
+      "description": "Какая-то мазня",
+      "link": "../images/maznya.jpg",
+      "inAuction": false,
+      "beginning_price": "",
+      "min_step": "",
+      "max_step": "",
+      "id": "picIdMQMtafQSm"
+    },
+    {
+      "name": "Девочка",
+      "author": "Никитин Я.Я.",
+      "date": "1976",
+      "description": "Маленькая девочка",
+      "link": "../images/girl.jpg",
+      "inAuction": false,
+      "beginning_price": "",
+      "min_step": "",
+      "max_step": "",
+      "id": "picIdaFvNNUIzL"
+    },
+    {
+      "name": "Солдат",
+      "author": "Некрасов Я.Я.",
+      "date": "1892",
+      "description": "Солдат отдыхает после боя",
+      "link": "../images/soldat.jpg",
+      "inAuction": true,
+      "beginning_price": 100000,
+      "min_step": 1000,
+      "max_step": 5000,
+      "id": "picId6Mk8Psz6g"
+    }
+  ]
+}

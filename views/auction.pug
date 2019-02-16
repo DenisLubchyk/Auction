@@ -1,0 +1,21 @@
+extends layout
+block title
+    | Index page
+block content
+    include ./header
+    link(rel="stylesheet" href="/stylesheets/link.css")
+    div(class='content')
+        h3(align="center") Аукцион cocтоится #{auction["dateBegin"]} в #{auction["timeBegin"]}
+        br
+        h3(align="center") Участники аукциона:
+        br
+        table
+            tbody
+            for par in participants
+                    if (par["auction"] != "")
+                        tr
+                            td
+                                a(href=`http://localhost:4445/user?` +`name=${par["name"]}&money=${par["money"]}` target='_blank') #{par["name"]}
+    script
+        include ../public/javascripts/auction.js
+    include ./footer

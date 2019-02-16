@@ -1,0 +1,10 @@
+{
+  "myAuc": {
+    "dateBegin": "2018-11-04",
+    "timeBegin": "13:33",
+    "timeout": "1",
+    "interval": "1",
+    "pause": "1",
+    "id": "auction"
+  }
+}

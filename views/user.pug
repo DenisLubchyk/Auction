@@ -1,0 +1,67 @@
+extends layout
+
+block content
+    include  ./header
+    script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js")
+    script(src="//ajax.aspnetcdn.com/ajax/jquery.ui/1.10.3/jquery-ui.min.js")
+    link(rel="stylesheet", href="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.10.3/themes/sunny/jquery-ui.css")
+    link(rel="stylesheet" href="/stylesheets/w3.css")
+    //link(href="https://fonts.googleapis.com/icon?family=Material+Icons", rel="stylesheet")
+    div#resizableFrame.resizableFrame.block.w3-display-bottomleft
+        div#users
+    div#res-msg-inp.block
+
+        p#status(hidden)
+        p#username= nickname
+        p#money= `Бюджет: ${money}`
+        p
+            label Введите сообщение:
+            input#msg.w3-input(placeholder='сообщение')
+        p
+            div.menu
+                button#send Отправить
+                button#btn-request Подать заявку
+                button#btn-buy(onclick="$('#shop-list').css('display', 'block')") Покупки
+        div#auctionbox(hidden)
+            p#currentbet Текущая ставка
+            p#yourmoney Ваша ставка
+            p
+                input#minstep.w3-radio(type="radio", name="money", checked)
+                label#minsteplabel Мин. ставка
+            p
+                input#maxstep.w3-radio(type="radio", name="money")
+                label#maxsteplabel Макс. ставка
+            p
+                div.menu
+                    button#btn-increase Повысить ставку
+
+    div#img-info-auction.block.w3-display-right(hidden)
+        div#info-pannel
+            p#info(style="padding:10px") Время на ознакомление
+            p.w3-center(style="padding:10px")#timer
+        div#img-info.w3-margin-right
+            div.w3-container.w3-cell
+                div#pic.w3-card-4.w3-animate-zoom
+                    div.w3-container.w3-center
+                        p#pic-name.shadow-text
+                        p#pic-author.shadow-text
+                    img#pic-img.w3-border.w3-padding(width=300)
+                    div.w3-container.w3-center
+                        p#pictureprice.shadow-text
+            div.w3-container.w3-cell.w3-animate-zoom.w3-panel(style="width:300px;")
+                p.w3-large.w3-opacity(align="justify") Описание:
+                p#disc.w3-large.w3-opacity(align="justify")
+
+    div#shop-list.block.w3-modal
+        div.block.w3-modal-content.w3-card-4.w3-animate-zoom(style="max-width:600px")
+            header.w3-container
+                span.w3-button.w3-display-topright(onclick="$('#shop-list').css('display', 'none')") &times;
+                h2.w3-center Покупки
+            table#buys.w3-table-all.w3-hoverable.w3-card-4.w3-centered
+                tr
+                    th Название
+                    th Автор
+                    th Начальная цена
+                    th Цена продажи
+    script(src="/socket.io/socket.io.js")
+    script(src="/javascripts/index.js")

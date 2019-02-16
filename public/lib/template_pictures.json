@@ -1,0 +1,28 @@
+{
+  "arr": [
+    {
+      "id": "222222223",
+      "name": "Мадонна",
+      "author": "Леонардо Да Винчи",
+      "date": "1241",
+      "description": "Дама средних лет",
+      "beginning_price": 10000000,
+      "link": "../images/madonna.jpg",
+      "inAuction": false,
+      "min_step": null,
+      "max_step":null
+    },
+    {
+      "id": "222222882",
+      "name": "Старая мадонна",
+      "author": "Леонардо Да Винчи",
+      "date": "1248",
+      "description": "Дама старых лет",
+      "beginning_price": 100000,
+      "link": "../images/oldmadonna.jpg",
+      "inAuction": true,
+      "min_step": 10,
+      "max_step":50
+    }
+  ]
+}

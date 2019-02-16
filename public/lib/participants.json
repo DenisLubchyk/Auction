@@ -1,0 +1,119 @@
+{
+  "arr": [
+    {
+      "id": "222222222",
+      "name": "Петров Андрей Сергеевич",
+      "card": "8678987645672456",
+      "auction": [
+        {
+          "picture": "Мадонна",
+          "maxPrice": "100000"
+        },
+        {
+          "picture": "Старая мадонна",
+          "maxPrice": "80000"
+        },
+        {
+          "picture": "Цветы",
+          "maxPrice": "60000"
+        }
+      ],
+      "money": "100000000"
+    },
+    {
+      "id": "222872222",
+      "name": "Петров Евген Сергеевич",
+      "card": "8678987645672456",
+      "auction": [
+        {
+          "picture": "Цветы",
+          "maxPrice": "80000"
+        },
+        {
+          "picture": "Мазня",
+          "maxPrice": "60000"
+        },
+        {
+          "picture": "Девочка",
+          "maxPrice": "9999"
+        }
+      ],
+      "money": "1000000000"
+    },
+    {
+      "name": "Короткова Екатерина Сергеевна",
+      "card": "111111111111",
+      "money": "8888",
+      "auction": [
+        {
+          "picture": "Цветы",
+          "maxPrice": "15000"
+        }
+      ],
+      "id": "usrIdT-XGrQ4Pm"
+    },
+    {
+      "name": "Иванов Иван Иванович",
+      "card": "2347879273478",
+      "money": "10",
+      "auction": [
+        {
+          "picture": "Цветы",
+          "maxPrice": "10000"
+        },
+        {
+          "picture": "Мазня",
+          "maxPrice": "100"
+        }
+      ],
+      "id": "usrIdTpO4uA6Fu"
+    },
+    {
+      "name": "Петров Петр Петрович",
+      "card": "832798123983789",
+      "money": 5000000,
+      "auction": [
+        {
+          "picture": "Девочка",
+          "maxPrice": "156"
+        }
+      ],
+      "id": "usrIdzxo2XnxwJ"
+    },
+    {
+      "name": "Леха",
+      "card": "88888888",
+      "money": 10000,
+      "auction": [
+        {
+          "picture": "Мадонна",
+          "maxPrice": "10000"
+        },
+        {
+          "picture": "Солдат",
+          "maxPrice": "777777"
+        }
+      ],
+      "id": "usrIdaP115RU1N"
+    },
+    {
+      "name": "Андрюха",
+      "card": "677826868",
+      "money": 200000,
+      "auction": "",
+      "id": "usrId9xMZNeo_H"
+    },
+    {
+      "name": "Серега",
+      "card": "798798",
+      "money": "100000000",
+      "auction": [
+        {
+          "picture": "Солдат",
+          "maxPrice": "10000"
+        }
+      ],
+      "id": "usrIdXkiV8CueJ"
+    }
+  ]
+}
